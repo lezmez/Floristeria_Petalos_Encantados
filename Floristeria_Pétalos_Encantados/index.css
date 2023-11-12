@@ -85,6 +85,10 @@ footer {
     text-decoration: none;
     color: #fff;
 }
+.category_list .ct_item-active{
+    background: rgb(8, 138, 99);
+    color: #ffffff;
+}
 
 /* PRODUCTOS FLORES-------------------------------------*/
 
@@ -107,7 +111,7 @@ footer {
     display: block;
     width: 100%;
     padding: 8px 0;
-    background: #0f4b8b;
+    background: rgb(110, 109, 109);
 
     text-align: center;
     text-decoration: none;
