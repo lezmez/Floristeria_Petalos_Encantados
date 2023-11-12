@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo de Flores</title>
+
     <link rel="stylesheet" href="index.css">
-</head>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
 </head>
 <body>
@@ -18,8 +19,48 @@
         </ul>
     </nav>
 
-    <h1>Catálogo de Flores</h1>
+    <!-- Filtro y Catálogo -->
+    <div class="wrap">
+        <h1>Catálogo de Flores</h1>
+        <div class="store-wrapper">
+            <div class="category_list">
+                <a href="#" id="categoryitem" category="all">Todo</a>
+                <a href="#" id="categoryitem" category="rosas">Rosas</a>
+                <a href="#" id="categoryitem" category="orquideas">Orquideas</a>
+                <a href="#" id="categoryitem" category="girasoles">Girasoles</a>
+                <a href="#" id="categoryitem" category="tulipanes">Tulipanes</a>
+                <a href="#" id="categoryitem" category="lirios">Lirios</a>
+            </div>
+            <section class="products-list">
+                <div class="product-item" category="rosas">
+                    <img src="imagenes/rosaroja.jpg" alt="">
+                    <a href="#">Rosa Roja</a>
+                </div>
+                <div class="product-item" category="rosas">
+                    <img src="imagenes/rosablanca.jpg" alt="">
+                    <a href="#">Rosa Blanca</a>
+                </div>
+                <div class="product-item" category="orquideas">
+                    <img src="imagenes/orquidea.jpg" alt="">
+                    <a href="#">Orquidea</a>
+                </div>
+                <div class="product-item" category="girasoles">
+                    <img src="imagenes/girasol.jpg" alt="">
+                    <a href="#">Girasol</a>
+                </div>
+                <div class="product-item" category="tulipanes">
+                    <img src="imagenes/tulipan.jpg" alt="">
+                    <a href="#">Tulipan</a>
+                </div>
+                <div class="product-item" category="lirios">
+                    <img src="imagenes/lirio.jpg" alt="">
+                    <a href="#">Lirio</a>
+                </div>
 
+            </section>
+            
+        </div>
+    </div>
     <!-- Información sobre las flores -->
     <div class="Rosas">
         <img src="rosaroja.jpg" alt="Rosa Roja">
