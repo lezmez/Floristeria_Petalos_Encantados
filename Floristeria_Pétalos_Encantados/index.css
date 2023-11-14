@@ -27,9 +27,12 @@ h1::after {
     margin: 20px 0px;
 }
 nav {
-    background-color: #ffffff;
-    color: #7b1fa2;
+    background-color: #7b1fa2;
     padding: 1em 0;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
 }
 ul {
     list-style: none;
@@ -110,11 +113,42 @@ footer {
 .products-list .product-item a{
     display: block;
     width: 100%;
-    padding: 8px 0;
-    background: rgb(110, 109, 109);
+    padding: 4px 0;
+    background: #ffffff;
 
     text-align: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
+.products-list .product-item .precio{
+    display: block;
+    width: 92%;
+    padding: 4px 0;
+    background: #ffffff;
 
+    text-align: end;
+    text-decoration: none;
+    color: #000000;
+}
+.products-list .product-item button{
+    padding: 10px;
+    position: relative;
+    top: 0.1px;
+    left: 10px;
+    width: 90%;
+    background-color: #33c3f0;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 4px;
+}
+.products-list .product-item button:hover{
+    background-color: #2DA0C3;
+    transition: all .3s;
+}

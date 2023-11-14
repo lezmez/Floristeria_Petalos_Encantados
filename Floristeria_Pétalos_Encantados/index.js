@@ -3,6 +3,7 @@ $(document).ready(function(){
     // AGREGANDO CLASE ACTIVE AL PRIMER ENLACE -----------------------------------
     $('.category_list .category_item[category="all"]').addClass('ct_item-active');
 
+    // FILTRANDO PRODUCTOS -------------------------------------------------------
     $('.category_item').click(function(){
         var catProduct = $(this).attr('category');
         console.log(catProduct);
@@ -17,16 +18,9 @@ $(document).ready(function(){
         // MOSTRANDO PRODUCTOS ---------------------------------------------------
         $('.product-item[category="'+catProduct+'"]').show();
     });
+
+    // MOSTRANDO TODOS LOS PRODUCTOS ---------------------------------------------
     $('.category_item[category="all"]').click(function(){
         $('.product-item').show();
     });
 });
-
-
-
-
-
-
-
-// (Agrega aquí el código JavaScript para las funcionalidades solicitadas)
-
