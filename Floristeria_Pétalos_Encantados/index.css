@@ -11,6 +11,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* TITULO DE LA PAGINA -----------------------------------*/
+
 h1 {
     background-color: #f4f4f4;
     color: #7b1fa2;
@@ -26,6 +29,9 @@ h1::after {
     height: 1px;
     margin: 20px 0px;
 }
+
+/* ENLACES PRINCIPALES DE LA PAGINA ----------------------*/
+
 nav {
     background-color: #7b1fa2;
     padding: 1em 0;
@@ -132,6 +138,9 @@ footer {
     text-decoration: none;
     color: #000000;
 }
+
+/* BOTON AÑADIR AL CARRITO --------------------------------------*/
+
 .products-list .product-item button{
     padding: 10px;
     position: relative;
