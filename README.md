@@ -26,4 +26,4 @@ Este sitio fue realizado por:
 * ## Agradecimientos 🎁
 
 * Gracias por visitar este repositorio, es para mi un honor compartir y demostrar mis habilidades con otras personas.🤓
-* Deja una ⭐ si te ha gustado esta landing page
+* Deja una ⭐ si te ha gustado esta landing page.

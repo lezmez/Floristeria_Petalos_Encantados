@@ -40,6 +40,26 @@ a{
     text-decoration: none;
     color: #ffffff;
 }
+i{
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.nav-card{
+    display:none;
+}
+.buy-card button{
+    display: none;
+}
+.i:hover > .buy-card{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    background-color: #06b331;
+}
 ul {
     list-style: none;
     display: flex;
@@ -49,12 +69,18 @@ ul {
 .main-content {
     margin: 20px;
 }
+
+/* FINAL -----------------------------------------------------*/
+
 footer {
     background-color: #7b1fa2;
     color: #fff;
     text-align: center;
     padding: 1em 0;
 }
+
+/* CATALOGO ---------------------------------------------------*/
+
 .wrap {
     max-width: 1100px;
     width: 90%;
